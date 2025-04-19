@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COFFEE SHOPS TIA ROSA</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefaf6;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      background-color: #a97456;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1527169402691-feff5539e52c');
+      background-size: cover;
+      background-position: center;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+    }
+
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h3 {
+      margin-top: 0;
+      color: #6f4e37;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .menu-item {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    .menu-item h4 {
+      margin-top: 0;
+    }
+
+    footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1, .hero h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>COFFEE SHOPS TIA ROSA</h1>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#menu">Menu</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Cafés artesanais e amor em cada xícara ☕</h2>
+  </div>
+
+  <section class="section" id="sobre">
+    <h3>Sobre nós</h3>
+    <p>Fundado com carinho por Dona Rosa, nosso café é um espaço acolhedor que serve bebidas deliciosas, bolos caseiros e muita história. Valorizamos o sabor, o conforto e a comunidade. Sinta-se em casa!</p>
+  </section>
+
+  <section class="section" id="menu">
+    <h3>Nosso Menu</h3>
+    <div class="menu">
+      <div class="menu-item">
+        <h4>Espresso</h4>
+        <p>Intenso, aromático e clássico.</p>
+      </div>
+      <div class="menu-item">
+        <h4>Cappuccino</h4>
+        <p>Café com leite vaporizado e espuma cremosa.</p>
+      </div>
+      <div class="menu-item">
+        <h4>Latte de Baunilha</h4>
+        <p>Leite suave com um toque doce de baunilha.</p>
+      </div>
+      <div class="menu-item">
+        <h4>Bolo de Cenoura</h4>
+        <p>Receita da Tia Rosa com cobertura de chocolate.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <h3>Contato</h3>
+    <p>📍 Rua do Café, 123 – Brasília, DF</p>
+    <p>📞 (61) 99999-8888</p>
+    <p>📧 contato@tiarosacoffee.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 COFFEE SHOPS TIA ROSA • Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
